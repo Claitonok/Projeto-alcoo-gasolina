@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(47, 47, 68);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+form{
+    width: 50%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+.card-body{
+    margin-top: 250px;
+}
+.card-title{
+    text-align: center;
+    color: white;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    padding: 40px;
+
+}
+form button{
+    box-shadow: 2px 3px 2px 3px rgb(38, 214, 47);
+}
