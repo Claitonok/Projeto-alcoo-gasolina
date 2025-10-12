@@ -1,11 +1,11 @@
 
 // Código de JavaScricpt
 function calcularPreco(){
-    var alcool = document.getElementById('Alcool').value;
-    var gasolina = document.getElementById('Gasolina').value;
-    var resultado  = alcool / gasolina;
+    let alcool = document.getElementById('Alcool').value;
+    let gasolina = document.getElementById('Gasolina').value;
+    let resultado  = alcool / gasolina;
 
-    var mensagemDoUsuario;
+    let mensagemDoUsuario;
 
     if (alcool == "") {
         mensagemDoUsuario = "O preço do Alcool e obrigatorio";
